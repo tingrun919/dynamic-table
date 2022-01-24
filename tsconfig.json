@@ -1,0 +1,24 @@
+{
+  "compilerOptions": {
+    "target": "esnext",
+    "module": "esnext",
+    "moduleResolution": "node",
+    "strict": true,
+    "forceConsistentCasingInFileNames": true,
+    "allowSyntheticDefaultImports": true,
+    "jsx": "preserve",
+    "noImplicitAny": false,
+    // "removeComments": true,
+    "esModuleInterop": true,
+    // "noLib": false,
+    // "rootDir": "packages",
+    "sourceMap": true,
+    "lib": ["ESNext", "DOM"],
+    // "declaration": true,
+    // "outDir": "./dist",
+    "experimentalDecorators": true,
+    "resolveJsonModule": true
+  },
+  "include": [ "packages/**/*.ts","packages/**/*.tsx" ],
+  "exclude": ["node_modules", "dist"]
+}
